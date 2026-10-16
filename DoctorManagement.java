@@ -98,7 +98,7 @@ public class DoctorManagement {
         long elapsedMicros = (System.nanoTime() - start) / 1000;
 
         System.out.println("\n=== DOCTOR SEARCH RESULTS [Algorithm: " + method.getDisplayName() + "] ===");
-        System.out.println("Query: \"" + query + "\" | Time: " + elapsedMicros + " µs | Matches Found: " + results.size());
+        System.out.println("Query: \"" + query + "\" | Time: " + elapsedMicros + " us | Matches Found: " + results.size());
         if (results.isEmpty()) {
             System.out.println("No doctors matched your query.");
             return;

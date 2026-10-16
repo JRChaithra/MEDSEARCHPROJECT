@@ -537,7 +537,7 @@ public class MedicalSearchEngine {
         System.out.println("  STRING MATCHING ALGORITHM BENCHMARK & PERFORMANCE COMPARISON");
         System.out.println("  Pattern: \"" + pattern + "\" | Corpus Length: " + corpus.length() + " chars");
         System.out.println("----------------------------------------------------------------------------------");
-        System.out.printf("%-18s | %-12s | %-15s | %-20s\n", "Algorithm", "Matches", "Time (µs)", "Time Complexity");
+        System.out.printf("%-18s | %-12s | %-15s | %-20s\n", "Algorithm", "Matches", "Time (us)", "Time Complexity");
         System.out.println("----------------------------------------------------------------------------------");
 
         // Warm up
